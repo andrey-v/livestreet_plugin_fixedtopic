@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Описание плагина FixedTopic
+
+    @author  Андрей Г. Воронов <andreyv@gladcode.ru>
+    @copyrights  Copyright &copy; 2012, Андрей Г. Воронов<br>
+                 Является частью плагина FixedTopic<br>
+    @version 1.0 от 05.11.12 10:36  - Создание описания плагина.<br>
+    @package plugins/fixedtopic
+-->
+<plugin>
+    <!-- Имя плагина, возможно использование нескольких слов и дополнительных языков -->
+    <name>
+        <lang name="default">Fixed Topic</lang>
+        <lang name="russian">Fixed Topic</lang>
+    </name>
+
+    <!-- Автор плагина. Здесь указываем свой ник или полное имя. Если ник, то достаточно дефолтного языка -->
+    <author>
+        <lang name="default">Андрей Г. Воронов</lang>
+    </author>
+
+    <!-- Домашнаяя страница -->
+    <homepage>http://gladcode.ru</homepage>
+
+    <!-- Текущая версия плагина -->
+    <version>1.0</version>
+
+    <!-- Требуемое для работы плагина окружение -->
+    <requires>
+        <!-- Версия LS-->
+        <livestreet>1.x</livestreet>
+        <!-- Перечень зависимых плагинов -->
+        <!--<plugins></plugins>-->
+    </requires>
+
+    <!-- Полнотекстовое описание плагина, на необходимых языках -->
+    <description>
+        <lang name="default">Плагин фиксирует определенный топик в общем списке топиков</lang>
+        <lang name="russian">Плагин фиксирует определенный топик в общем списке топиков</lang>
+    </description>
+</plugin>
