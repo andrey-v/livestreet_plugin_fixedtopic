@@ -17,4 +17,5 @@
 
 </div>
 
+{assign var="bTopicList" value="true"}
 {include file='topic_part_footer.tpl'}
