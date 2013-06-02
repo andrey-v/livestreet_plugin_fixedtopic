@@ -1,3 +1,4 @@
+{assign var="bTopicList" value="true"}
 {include file='topic_part_header.tpl'}
 
 <div class="topic-content text">
@@ -17,5 +18,4 @@
 
 </div>
 
-{assign var="bTopicList" value="true"}
 {include file='topic_part_footer.tpl'}
